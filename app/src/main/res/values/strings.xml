@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Aji Rahmat Muhajir_1202154150_Moudl3</string>
+    <string name="deksripsi">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+        Aenean vulputate eleifend tellus.
+        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+    </string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="menu_titles">
+        <item>Air Minum Ades</item>
+        <item>Air Minum Amidis</item>
+        <item>Air Minum Aqua</item>
+        <item>Air Minum Cleo</item>
+        <item>Air Minum Club</item>
+        <item>Air Minum Equil</item>
+        <item>Air Minum Evian</item>
+        <item>Air Minum Leminerale</item>
+        <item>Air Minum Nestle</item>
+        <item>Air Minum Pristine</item>
+        <item>Air Minum Vit</item>
+    </string-array>
+
+    <string-array name="menu_info">
+        <item>Air Minum Ades sangat segar</item>
+        <item>Air Minum Amidis sangat enak </item>
+        <item>Air Minum Aqua mineral alam terbaik</item>
+        <item>Air Minum Cleo harganya murah</item>
+        <item>Air Minum Club air mineral bening</item>
+        <item>Air Minum Equil air mineral mahal</item>
+        <item>Air Minum Evian air meineral ga terkenal</item>
+        <item>Air Minum Leminerale banyak di iklan</item>
+        <item>Air Minum Nestle ga terlalu terkenal </item>
+        <item>Air Minum Pristine ga terlalu terkenal</item>
+        <item>Air Minum Vit harganya emang murah</item>
+    </string-array>
+
+    <string-array name="menu_deskripsi">
+        <item>Air Minum Ades sangat segar, ena</item>
+        <item>Air Minum Amidis sangat enak </item>
+        <item>Air Minum Aqua mineral alam terbaik</item>
+        <item>Air Minum Cleo harganya murah</item>
+        <item>Air Minum Club air mineral bening</item>
+        <item>Air Minum Equil air mineral mahal</item>
+        <item>Air Minum Evian air meineral ga terkenal</item>
+        <item>Air Minum Leminerale banyak di iklan</item>
+        <item>Air Minum Nestle ga terlalu terkenal </item>
+        <item>Air Minum Pristine ga terlalu terkenal</item>
+        <item>Air Minum Vit harganya emang murah</item>
+    </string-array>
+
+    <array name="menu_images">
+        <item>@drawable/ades</item>
+        <item>@drawable/amidis</item>
+        <item>@drawable/aqua</item>
+        <item>@drawable/cleo</item>
+        <item>@drawable/club</item>
+        <item>@drawable/equil</item>
+        <item>@drawable/evian</item>
+        <item>@drawable/leminerale</item>
+        <item>@drawable/nestle</item>
+        <item>@drawable/pristine</item>
+        <item>@drawable/vit</item>
+    </array>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aji.userpc.ajirahmatmuhajir_1202154150_moudl3.DetailMenu">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--- image -->
+        <ImageView
+            android:id="@+id/menuImages_detail"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:contentDescription="icon"
+            android:src="@drawable/aqua"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- title -->
+        <TextView
+            android:id="@+id/minuman_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/menuImages_detail"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuImages_detail" />
+
+        <!-- deskripsi -->
+        <TextView
+            android:id="@+id/minuman_deskripsi"
+            android:layout_width="fill_parent"
+            android:layout_height="346dp"
+            android:layout_alignBaseline="@+id/minuman_title"
+            android:layout_alignBottom="@+id/minuman_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/deksripsi"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minuman_title" />
+
+        <ImageView
+            android:id="@+id/galon"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/minuman_deskripsi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minuman_deskripsi"
+            app:srcCompat="@drawable/airgalon" />
+
+        <ImageButton
+            android:id="@+id/btnTambah"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginTop="28dp"
+            android:onClick="setImageLevel"
+            android:src="@drawable/ic_plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/galon" />
+
+        <ImageButton
+            android:id="@+id/btnKurang"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:onClick="setImageLevel"
+            android:src="@drawable/ic_minus"
+            app:layout_constraintEnd_toStartOf="@+id/btnTambah"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/galon"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/isi_galon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="1L"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnKurang" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
